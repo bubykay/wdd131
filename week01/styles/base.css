@@ -12,8 +12,8 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-
     color: var(--text-light);
+    font-family: 'Merriweather', serif;
 }
 
 header {
@@ -25,8 +25,7 @@ header {
 
 nav ul {
     list-style: none;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding: 10px 100px 10px 100px;
     margin: 0;
     display: flex;
     justify-content: space-between;
@@ -38,6 +37,18 @@ nav ul {
 nav li {
     padding: 0.5rem 1rem;
     border-radius: 5px;
+    padding: 10px;
+}
+nav li a {
+    color: var(--text-light);
+    text-decoration: none;
+}
+nav li:hover {
+    background-color: var(--text-light);
+}
+nav li:hover a {
+    background-color: var(--text-light);
+    color: var(--accent-color-2);
 }
 
 .parent {
@@ -72,22 +83,47 @@ footer {
     text-align: center;
 }
 
-.name h2 {
+.country-name h2 {
     background-color: #fff;
     color: var(--text-dark);
-    border-bottom: 2px solid var(--accent-color-1);
-    margin-left: 40px;
-    margin-right: 40px;
 }
 .profile,
 .country {
     padding: 0.5em;
+    position: relative;
 }
 
 span {
     color: yellow;
 }
 
-footer span {
+#lastModified {
     font-size: 0.7em;
+}
+.profile {
+    position: relative;
+}
+
+.profile-img-container {
+    float: right;
+    text-align: center;
+    padding: 0;
+}
+
+.profile-img-container img {
+    width: 200px;
+}
+
+.flag-img-container {
+    float: left;
+    text-align: center;
+    padding: 0;
+    font-size: 0.9em;
+}
+.flag-img-container img {
+    width: 200px;
+}
+.currentYear span {
+    color: var(--text-light);
+    text-decoration: none;
 }

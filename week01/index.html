@@ -10,6 +10,13 @@
         <meta name="author" content="Kayode Adetayo" />
         <title>WDD 131 - Dynamic Web Fundamentals - Kayode Adetayo</title>
         <link rel="stylesheet" href="styles/base.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Roboto:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <script src="scripts/getdates.js" defer></script>
     </head>
     <body>
         <header>
@@ -20,10 +27,21 @@
 
             <nav>
                 <ul>
-                    <li>Linkedin</li>
-                    <li>Canvas</li>
-                    <li>Scripture</li>
-                    <li>Final Project</li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/kayode-adetayo/"
+                            >Linkedin</a
+                        >
+                    </li>
+                    <li>
+                        <a href="https://byupw.instructure.com/.">Canvas</a>
+                    </li>
+                    <li>
+                        <a
+                            href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7"
+                            >Scripture</a
+                        >
+                    </li>
+                    <li><a href="">Final Project</a></li>
                 </ul>
             </nav>
         </header>
@@ -31,6 +49,16 @@
             <main>
                 <h2>About me</h2>
                 <div class="profile">
+                    <div class="profile-img-container">
+                        <figure>
+                            <img
+                                src="images/profileImg.png"
+                                alt=""
+                                class="profile-img"
+                            />
+                            <!-- <figcaption>My caption</figcaption> -->
+                        </figure>
+                    </div>
                     <article>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Eligendi quaerat neque exercitationem eius rerum ullam
@@ -45,8 +73,23 @@
                         commodi labore. Ad voluptatibus commodi exercitationem
                         dicta officia?
                     </article>
-                    <div class="name"><h2>Kayode Adetayo</h2></div>
+                    <div class="country-name">
+                        <h2>Kayode Adetayo</h2>
+                        <hr />
+                    </div>
                     <div class="country">
+                        <div class="flag-img-container">
+                            <figure>
+                                <img
+                                    src="images/nigeriaFlag.jpg"
+                                    alt=""
+                                    class="flag"
+                                />
+                                <figcaption>
+                                    Official Flag of Nigeria
+                                </figcaption>
+                            </figure>
+                        </div>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Nihil laboriosam similique, quam dignissimos ducimus
                         sunt voluptatem reiciendis, deleniti porro sit
@@ -71,9 +114,11 @@
             </aside>
         </div>
         <footer>
-            &copy;2024 Kayode Ayodele Adetayo <br /><span
-                >last modification 12/31/2024
-            </span>
+            <p class="currentYear">
+                &copy; <span id="currentyear"></span> Kayode Ayodele Adetayo -
+                Nigeria
+            </p>
+            <p><span id="lastModified">last modification 12/31/2024 </span></p>
         </footer>
     </body>
 </html>
