@@ -17,6 +17,7 @@
     />
     <title>WDD 131 - Dynamic Web Fundamentals - Kayode Adetayo</title>
 
+    <!-- Preconnect links to optimize Google Fonts loading -->
     <link
         rel="preconnect"
         href="https://fonts.googleapis.com"
@@ -27,10 +28,13 @@
         crossorigin
     >
 
+    <!-- External stylesheet -->
     <link
         rel="stylesheet"
         href="styles/base.css"
     />
+
+    <!-- JavaScript file for dynamic date updates -->
     <script
         src="scripts/getdates.js"
         defer
@@ -46,29 +50,25 @@
 
         <nav>
             <ul>
-                <li>
-                    <a href="https://www.linkedin.com/in/kayode-adetayo/">Linkedin</a>
-                </li>
-                <li>
-                    <a href="https://byupw.instructure.com/.">Canvas</a>
-                </li>
-                <li>
-                    <a
+                <li><a href="https://www.linkedin.com/in/kayode-adetayo/">LinkedIn</a></li>
+                <li><a href="https://byupw.instructure.com/">Canvas</a></li>
+                <li><a
                         href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7">Scripture</a>
                 </li>
-                <li><a href="">Final Project</a></li>
+                <li><a href="#">Final Project</a></li>
             </ul>
         </nav>
     </header>
+
     <div class="parent">
         <main>
-            <h2>About me</h2>
+            <h2>About Me</h2>
             <div class="profile">
                 <div class="profile-img-container">
                     <figure>
                         <img
                             src="images/profileImg.png"
-                            alt=""
+                            alt="Profile picture of Kayode Adetayo"
                             class="profile-img"
                         />
                     </figure>
@@ -96,12 +96,10 @@
                         <figure>
                             <img
                                 src="images/nigeriaFlag.jpg"
-                                alt=""
+                                alt="Flag of Nigeria"
                                 class="flag"
                             />
-                            <figcaption>
-                                Official Flag of Nigeria
-                            </figcaption>
+                            <figcaption>Official Flag of Nigeria</figcaption>
                         </figure>
                     </div>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -119,18 +117,18 @@
             <h2>Web Dev Resources</h2>
             <ul class="nav-list">
                 <li class="list-item"><a href="#">Dev.to Community</a></li>
-                <li class="list-item"><a href="#">Smashing Magazing</a></li>
-                <li class="list-item"><a href="#">CSS tricks</a></li>
-                <li class="list-item"><a href="#">W3 Schools</a></li>
+                <li class="list-item"><a href="#">Smashing Magazine</a></li>
+                <li class="list-item"><a href="#">CSS Tricks</a></li>
+                <li class="list-item"><a href="#">W3Schools</a></li>
                 <li class="list-item"><a href="#">Udemy</a></li>
                 <li class="list-item"><a href="#">Image Placeholder</a></li>
             </ul>
         </aside>
     </div>
+
     <footer>
         <p class="currentYear">
-            &copy; <span id="currentyear"></span> Kayode Ayodele Adetayo -
-            Nigeria
+            &copy; <span id="currentyear"></span> Kayode Ayodele Adetayo - Nigeria
         </p>
         <p><span id="lastModified"></span></p>
     </footer>
