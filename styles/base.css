@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Roboto:wght@400;700&display=swap');
 :root {
     --primary-color: #4a5f3b;
     --secondary-color: #3b5c5f;
@@ -50,6 +51,9 @@ nav li:hover a {
     background-color: var(--text-light);
     color: var(--accent-color-2);
 }
+nav li a:hover {
+    color: var(--accent-color-2);
+}
 
 .parent {
     display: grid;
@@ -67,6 +71,12 @@ aside {
     overflow: auto;
     border-radius: 10px;
     border: 2px solid var(--accent-color-1);
+}
+
+main {
+    max-width: 1000px; /* Example max width */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h2 {
