@@ -47,14 +47,14 @@ nav li a {
     color: var(--text-light);
     text-decoration: none;
 }
-nav li:hover {
-    background-color: var(--text-light);
+nav li a:hover {
     color: var(--accent-color-2);
     cursor: pointer;
 }
-nav li:hover a {
-    cursor: pointer;
+nav li:hover {
+    color: var(--accent-color-2);
 }
+
 .page-title {
     display: flex;
     align-content: space-between;
