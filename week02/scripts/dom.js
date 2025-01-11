@@ -1,1 +1,2 @@
-console.dir(document);
+// console.dir(document);
+console.dir(navigator);
