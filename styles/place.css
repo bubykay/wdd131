@@ -1,5 +1,5 @@
 :root {
-    --primary-color: red;
+    --primary-color: #620909;
     --secondary-color: green;
     --text-white: white;
 }
@@ -16,6 +16,7 @@ body {
 header {
     background-color: var(--secondary-color);
     padding-bottom: 20px;
+    color: var(--text-white);
 }
 h1 {
     padding: 20px 10px;
