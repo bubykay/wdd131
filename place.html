@@ -24,6 +24,10 @@
     src="scripts/place.js"
     defer
   ></script>
+  <script
+    src="scripts/getdates.js"
+    defer
+  ></script>
 </head>
 
 <body>
@@ -47,9 +51,40 @@
         >
       </picture>
     </div>
+    <section class="data">
+      <div>
+        <h2 class="card-header">Data</h2>
+        <div class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam omnis praesentium, commodi
+          delectus
+          velit reprehenderit, in dolorum laboriosam illo facere quaerat itaque labore, aliquam eaque debitis rerum
+          dolore
+          asperiores distinctio?</div>
+      </div>
+    </section>
+    <section class="weather">
+      <div>
+        <h2 class="card-header">Weather</h2>
+        <picture>
+
+          <img
+            src="images/place/weather-mobile.svg"
+            alt="Weather Icon"
+            width="60"
+          >
+        </picture>
+        <div class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam omnis praesentium, commodi
+          delectus
+          velit reprehenderit, in dolorum laboriosam illo facere quaerat itaque labore, aliquam eaque debitis rerum
+          dolore
+          asperiores distinctio?</div>
+      </div>
+    </section>
   </main>
   <footer>
-    <p>© 2025 Kayode Adetayo. All rights reserved.</p>
+    <p class="currentYear">
+      &copy; <span id="currentyear"></span> Kayode Ayodele Adetayo - Nigeria
+    </p>
+    <p><span id="lastModified"></span></p>
   </footer>
 </body>
 
