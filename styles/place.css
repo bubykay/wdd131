@@ -88,7 +88,6 @@ picture {
 
     .weather h2::after {
         content: ' 🌦️';
-        font-size: em;
     }
 
     .card-content {
