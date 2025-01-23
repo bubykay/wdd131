@@ -1,0 +1,39 @@
+:root {
+    --primary-color: red;
+    --secondary-color: green;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    text-align: center;
+    color: white;
+    background-color: aqua;
+}
+header {
+    background-color: var(--secondary-color);
+    padding-bottom: 20px;
+}
+h1 {
+    padding: 20px 10px;
+    background-color: var(--primary-color);
+}
+.hero img {
+    width: 100%;
+    object-fit: cover;
+}
+
+footer {
+    background-color: var(--primary-color);
+    min-height: 100px;
+    margin: 0;
+}
+main {
+    margin: 0;
+}
+
+picture {
+    margin: 0px;
+}
