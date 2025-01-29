@@ -105,7 +105,7 @@ function createTempleCard(temple) {
     `;
     return card;
 }
-console.log(largeTemplesButton);
+
 oldAlbumButton.addEventListener('click', (event) => {
     albumSection.innerHTML = '';
     filterTemplesByAge(1900).forEach((temple) => {
