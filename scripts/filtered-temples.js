@@ -56,6 +56,30 @@ const temples = [
             'https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg',
     },
     // Add more temple objects here...
+    {
+        templeName: 'Belém Brazil ',
+        location: 'Belém - PA, Brazil',
+        dedicated: '2022, November, 20 ',
+        area: 28675,
+        imageUrl:
+            'https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/belem-brazil/400x250/belem_brazil_temple_exterior.jpg',
+    },
+    {
+        templeName: 'Madrid Spain',
+        location: 'Calle del Templo, Madrid, Spain',
+        dedicated: '1999, March, 19  ',
+        area: 45800,
+        imageUrl:
+            'https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg',
+    },
+    {
+        templeName: 'Fortaleza Brazil',
+        location: 'Bairro de Lourdes, Brazil',
+        dedicated: '2019, June, 2',
+        area: 36000,
+        imageUrl:
+            'https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/fortaleza-brazil/400x250/5-Fortaleza-Temple-Photo-2219775.jpg',
+    },
 ];
 const albumSection = window.document.querySelector('.album');
 const oldAlbumButton = window.document.querySelector('.old-album');
