@@ -1,0 +1,27 @@
+@media (min-width: 600px) {
+    .album {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+}
+@media (min-width: 1000px) {
+    .album {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    main {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    #menu {
+        display: none;
+    }
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    nav ul {
+        display: flex;
+    }
+}
