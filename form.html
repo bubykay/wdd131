@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <title>Product Review</title>
+  <link
+    rel="stylesheet"
+    href="styles/form.css"
+  >
+  <script
+    src="scripts/form.js"
+    defer
+  ></script>
+  <script
+    src="scripts/getdates.js"
+    defer
+  ></script>
+</head>
+
+<body>
+  <header>
+    <h1>Product Review</h1>
+  </header>
+  <form
+    action="review.html"
+    method="get"
+  >
+    <div class="form-item">
+      <label for="productName">Product</label>
+      <select
+        name="productName"
+        id="productName"
+        class="productName"
+        required
+      >
+        <option
+          disabled
+          selected
+          value=""
+        >Select a product..</option>
+      </select>
+    </div>
+
+    <div class="form-item">
+      <label>Overall Rating</label>
+      <div class="ratings">
+        <div class="rating-item">
+          <label for="rating1">⭐️</label>
+          <input
+            type="radio"
+            name="rating"
+            id="rating1"
+            value="1"
+            required
+          >
+        </div>
+        <div class="rating-item">
+          <label for="rating2">⭐️⭐️</label>
+          <input
+            type="radio"
+            name="rating"
+            id="rating2"
+            value="2"
+            required
+          >
+        </div>
+        <div class="rating-item">
+          <label for="rating3">⭐️⭐️⭐️</label>
+          <input
+            type="radio"
+            name="rating"
+            id="rating3"
+            value="3"
+            required
+          >
+        </div>
+        <div class="rating-item">
+          <label for="rating4">⭐️⭐️⭐️⭐️</label>
+          <input
+            type="radio"
+            name="rating"
+            id="rating4"
+            value="4"
+            required
+          >
+        </div>
+        <div class="rating-item">
+          <label for="rating5">⭐️⭐️⭐️⭐️⭐️</label>
+          <input
+            type="radio"
+            name="rating"
+            id="rating5"
+            value="5"
+            required
+          >
+        </div>
+      </div>
+
+    </div>
+
+    <div class="form-item">
+      <label for="installationDate">Date of Installation</label>
+      <input
+        type="date"
+        name="installationDate"
+        id="installationDate"
+        required
+      >
+    </div>
+
+    <div class="form-item">
+      <label>Which features did you find useful in the product? <span>(Check all that
+          apply)</span></label>
+      <div class="usefulness-item">
+        <input
+          type="checkbox"
+          name="usefulFeatures"
+          id="durability"
+          value="Durability"
+        >
+        <label for="durability">Durability</label>
+      </div>
+      <div class="usefulness-item">
+        <input
+          type="checkbox"
+          name="usefulFeatures"
+          id="performance"
+          value="Performance"
+        >
+        <label for="performance">Performance</label>
+      </div>
+      <div class="usefulness-item">
+        <input
+          type="checkbox"
+          name="usefulFeatures"
+          id="design"
+          value="Design"
+        >
+        <label for="design">Design</label>
+      </div>
+      <div class="usefulness-item">
+        <input
+          type="checkbox"
+          name="usefulFeatures"
+          id="easeOfUse"
+          value="Ease of use"
+          required
+        >
+        <label for="easeOfUse">Ease of use</label>
+      </div>
+    </div>
+
+    <div class="form-item">
+      <label for="review">Written Review (Optional)</label>
+      <textarea
+        name="review"
+        id="review"
+        cols="4"
+      ></textarea>
+    </div>
+    <div class="form-item">
+      <label for="name">Your Name (Optional)</label>
+      <input
+        type="text"
+        id="name"
+      >
+
+      <input
+        type="submit"
+        value="Submit Review"
+      >
+    </div>
+  </form>
+  <footer>
+    <p class="currentYear">
+      &copy; <span id="currentyear"></span> Kayode Ayodele Adetayo - Nigeria
+    </p>
+    <p><span id="lastModified"></span></p>
+  </footer>
+</body>
+
+</html>
